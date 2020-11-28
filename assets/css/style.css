@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+/* -------------------------Colours */
+
+
+
+/* -------------------------Heading */
+
+.bg-dark {
+    margin: 0;
+    background: #000000;
+    width: 100%; 
+}
+
+.nav-link {
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.navbar {
+    position: relative;
+}
+
+/* -------------------------Images */
+
+.hero-image {
+    min-height: 450px;
+    width: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url("../images/green-chameleon-s9CC2SKySJM-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+    left: 0px;
+    position: relative;
+    }
+
+#logo {
+    background: url("../images/watermark_centre.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 25%;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#circular-banner {
+    background: url("../images/5 verbe importante in limba engleza-2_copy.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+/* -------------------------Container */
+
+
+
+.logo-banner-flex-container {
+    display: flex;
+    justify-items: space-between;
+}
+
+.container-fluid-subtitle {
+    width: 100%;
+    min-height: 20vh;
+}
+
+.container-fluid-subjects {
+    width: 100%;
+    min-height: 25vh;
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    padding-bottom: 100px;
+}
+
+.container-fluid-subjects a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400px;
+}
+
+.container-fluid-subjects a:hover {
+    color: gray;
+}
+
+/* -------------------------Text */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.subtitle-text {
+    font-family: "Amatic SC", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.subtitle-bg {
+    background-color: #fff;
+
+}
+
+.subtitle-divider {
+    width: 50%;
+    height: 0px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+
+.heading {
+    text-align: right;
+    font-size: 30px;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+/* -------------------------Footer */
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    bottom: 0;
+}   
+
+.ribbon {
+    color: #fff;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.instagram-icon {
+    color: #fff;
+}
+
+.instagram-icon:hover {
+    color: gray;
+}
+
+/* -------------------------Media query */
+
+@media screen and (max-width: 414px){
+    #logo{
+    width: 50%;
+    }
+}
